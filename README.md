@@ -16,21 +16,12 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 
 
-```
+```javac Human.java ```
 
-    javac Human.java 
+##Then Run
 
-```
-
-/* Then Run
-
-  */
   
- ```
-
-    java Human 
-
-    ```
+ ```java Human ```
     
     Thank You
 
