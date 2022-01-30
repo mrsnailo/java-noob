@@ -12,28 +12,25 @@ The workspace contains two folders by default, where:
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
 
-
-//: ## Running With Terminal
-
+ ## Running With Terminal
 
 
-    ````
+
+```
 
     javac Human.java 
 
-    …
+```
 
-    ````
+/* Then Run
 
-//: Then Run
-
-    ````
+  */
+  
+ ```
 
     java Human 
 
-    …
-
-    ````
+    ```
     
     Thank You
 
