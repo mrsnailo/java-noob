@@ -1,6 +1,6 @@
 ## Getting Started
 
-You Must Have Jave Installed In your Machine(Computer/Phone).
+You Must Have Java Installed In your Machine(Computer/Phone).
 
 ## Folder Structure
 
