@@ -1,6 +1,6 @@
-public class Bnagladeshi extends HumanProp implements Human{
+public class Bangladeshi extends HumanProp implements Human{
 
-    public Bnagladeshi(String name, int age) {
+    public Bangladeshi(String name, int age) {
         super(name, age);
         //TODO Auto-generated constructor stub
         this.Name = name;

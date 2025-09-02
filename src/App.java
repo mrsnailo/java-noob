@@ -20,7 +20,7 @@ public class App {
                     int uage = uput.nextInt();
                     uput.nextLine();
 
-                    Human bd1 = new Bnagladeshi(uname, uage);
+                    Human bd1 = new Bangladeshi(uname, uage);
                     // Detailed
 
                     System.out.println("What Do You want to know about the user you created: \n" +
