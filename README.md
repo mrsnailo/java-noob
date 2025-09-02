@@ -45,14 +45,26 @@ HumanProp (Base Class)
 
 ## Running the Application
 
-### Compile the Source Files
+### Option 1: Use the Provided Scripts (Recommended)
 
+**Windows (PowerShell):**
+```powershell
+.\run.ps1
+```
+
+**Windows (Command Prompt):**
+```cmd
+run.bat
+```
+
+### Option 2: Manual Compilation and Execution
+
+**Compile the Source Files:**
 ```bash
 javac src/*.java -d bin
 ```
 
-### Run the Main Application
-
+**Run the Main Application:**
 ```bash
 java -cp bin App
 ```
@@ -69,29 +81,55 @@ Once running, the application will present a menu that allows you to:
 ## Example Interaction
 
 ```
-a) Create a Citizen 
-b) Quit
-> a
+═══════════════════════════════════════════════════════════════
+           [*] Human Citizenship Simulator [*]
+           Explore Different Cultures and Lifestyles
+═══════════════════════════════════════════════════════════════
 
-What type of Citizen You Want TO create, 
-1) Bangladeshi 
-2) Nigerian
-> 1
+═══════════════════════════════════════════════════════════════
+                    [HOME] MAIN MENU [HOME]
+═══════════════════════════════════════════════════════════════
 
-Name Of Bangladeshi Citizen
-> Rahim
+  [+] a) Create a citizen
+  [X] b) Exit application
 
-Age OF Bd Citizen
-> 25
+[INPUT] Enter your choice: a
 
-What Do You want to know about the user you created: 
-1) How He/she Moves? 
-2) How Much he/she Sleeps? 
-3) What Language He/She Speaks? 
-4) What Does He/she Eats? 
-> 3
+═══════════════════════════════════════════════════════════════
+                 [WORLD] SELECT NATIONALITY [WORLD]
+═══════════════════════════════════════════════════════════════
 
-Rahim Speaks Bengali
+  [BD] 1) Bangladeshi Citizen
+  [NG] 2) Nigerian Citizen
+
+[INPUT] Select nationality (1 or 2): 1
+
+[BD] Creating Bangladeshi Citizen...
+─────────────────────────────────────
+[INPUT] [USER] Enter citizen's name: Rahim
+[INPUT] [AGE] Enter citizen's age: 25
+
+[OK] [BD] Bangladeshi citizen created successfully!
+
+[EXPLORE] EXPLORE CHARACTERISTICS [EXPLORE]
+═══════════════════════════════════════════════════════════════
+
+  [MOVE] 1) How do they move?
+  [SLEEP] 2) What are their sleeping habits?
+  [LANG] 3) What language do they speak?
+  [FOOD] 4) What do they eat?
+  [BACK] 5) Back to main menu
+
+[INPUT] What would you like to know? (1-5): 3
+
+═══════════════════════════════════════════════════════════════
+              [INFO] CITIZEN CHARACTERISTICS [INFO]
+═══════════════════════════════════════════════════════════════
+
+[LANG] LANGUAGE SKILLS:
+──────────────────
+[SPEAK] Rahim speaks Bengali fluently
+   'Apni kemon achen?' - How are you?
 ```
 
 ## Future Enhancements

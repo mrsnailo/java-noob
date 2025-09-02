@@ -9,29 +9,28 @@ public class Bangladeshi extends HumanProp implements Human{
 
     @Override
     public void move() {
-        // TODO Auto-generated method stub
-        System.out.println(Name + " Moves 3m/s ");
-        
+        System.out.println("[WALK] " + Name + " moves at a steady pace of 3 m/s");
+        System.out.println("   They prefer walking through the bustling streets of Dhaka!");
     }
 
     @Override
     public void speaks() {
-        System.out.println(Name + " Speaks Bengali");
-        
+        System.out.println("[SPEAK] " + Name + " speaks Bengali fluently");
+        System.out.println("   'Apni kemon achen?' - How are you?");
     }
 
     @Override
     public void eats() {
-        // TODO Auto-generated method stub
-        System.out.println(Name + " Eats Rice, Fish, Semay");
-        
+        System.out.println("[FOOD] " + Name + " enjoys traditional Bangladeshi cuisine:");
+        System.out.println("   [RICE] Rice (the staple food)");
+        System.out.println("   [FISH] Fresh fish from the rivers");
+        System.out.println("   [NOODLES] Semay (vermicelli) for special occasions");
     }
 
     @Override
     public void sleeps() {
-        // TODO Auto-generated method stub
-        System.out.println(Name + " sleeps 6 Hours  a Day");
-        
+        System.out.println("[SLEEP] " + Name + " sleeps about 6 hours per day");
+        System.out.println("   Early to bed, early to rise - a common lifestyle in Bangladesh!");
     }
     
 }
